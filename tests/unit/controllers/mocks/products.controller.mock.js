@@ -1,15 +1,14 @@
-const productsMocker = [
+const productListMock = [
   {
-    name: 'Martelo de Thor',
+    "id": 2,
+    "name": "Traje de encolhimento"
   },
+  {
+    "id": 3,
+    "name": "Escudo do Capitão América"
+  }
 ];
 
-const newProductsMocker = { id: 1, ...productsMocker };
-
-const productsMockerList = [newProductsMocker];
-
 module.exports = {
-  productsMocker,
-  newProductsMocker,
-  productsMockerList,
+  productListMock,
 };
